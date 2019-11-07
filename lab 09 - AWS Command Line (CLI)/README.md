@@ -17,20 +17,26 @@
 2.1. Para instalar a CLI, siga as instruções em https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html de acordo com o seu Sistema Operacional. Caso já possua o pip3 instalado, basta executar o comando:
 
 ```
-$ pip3 install awscli --upgrade --user
+<pre>
+<b>$ pip3 install awscli --upgrade --user</b>
+</pre>
 ```
 
 2.2. Para verificar que a CLI foi instalada corretamente, execute o comando:
 
 ```
-$ aws --version
+<pre>
+<b>$ aws --version</b>
 aws-cli/1.16.246 Python/3.7.4 Linux/4.14.133-113.105.amzn2.x86_64 botocore/1.12.236
+</pre>
 ```
 
 2.3. Para configurar as suas credenciais, execute o comando:
 
 ```
-$ aws configure --profile cli-lab
+<pre>
+<b>$ aws configure --profile cli-lab</b>
+</pre>
 ```
 
 Nesse momento, irá preencher os campos com as credenciais configuradas no passo 1:
@@ -47,7 +53,9 @@ Como o usuário foi configurado com permissão de administrador, as credenciais 
 2.4. Para validar que as credenciais foram configuradas corretamente, execute o comando para ver as credenciais configuradas para o perfil [cli-lab]:
 
 ```
-$ cat ~/.aws/credentials 
+<pre>
+<b>$ cat ~/.aws/credentials</b>
+</pre>
 ```
 
 ### 3. Utilizando a CLI
@@ -55,17 +63,23 @@ $ cat ~/.aws/credentials
 3.1. O primeiro teste será listar os buckets existentes no S3, com o comando:
 
 ```
-$ aws s3 ls --profile cli-lab
+<pre>
+<b>$ aws s3 ls --profile cli-lab</b>
+</pre>
 ```
 
 3.2. Para criar um novo bucket, execute o comando a seguir, substituindo *mybucket* por um nome único de bucket:
 
 ```
-$ aws s3 mb s3://mybucket --region us-east-1 --profile cli-lab
+<pre>
+<b>$ aws s3 mb s3://mybucket --region us-east-1 --profile cli-lab</b>
+</pre>
 ```
 
 3.3. Para validar que o bucket foi criado corretamente, execute novamente o comando para listar buckets e validar que o novo bucket agora existe
 
 ```
-$ aws s3 ls --profile cli-lab
+<pre>
+<b>$ aws s3 ls --profile cli-lab</b>
+</pre>
 ```
