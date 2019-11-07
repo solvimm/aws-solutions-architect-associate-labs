@@ -1,8 +1,28 @@
-CrossReplication Lab
+# Lab 05 - Cross Region Replication no S3
 
-Como primeiro passo desse lab, devemos habilitar e configurar o cross replication.
-Acesso o bucket que deseja fazer a configuração e va em "Gerenciamento"Após isso, va em "Replicação" e em seguida clique em "Adicionar regra"Aqui você ode escolher se replica todo o conteúdo que for salvo no bucket, ou apenas os que estiverem com certo prefixo no nome ou tag e também se vão ser copiados arquivos criptografados com AWS KMS.No menuu "Definir destino" é possível escolher um bucket ja existe para replicação ou a criação de um novo. Vamos optar por criar um novo.
-Também podemos definir qual a categoria de armazenamento em que as réplicas serão salvas e se vamos alterar a propriedade do objeto para o proprietário do bucket de destino.Com a criação do novo bucket, é necessário colocar um novo nome único e definir a região onde o bucket de replicação vai ser criado.Após a definição do destino, precisamos dar permissão, através de IAM Role, para o bucket de origem criar um bucket de destino e fazer a cópia de arquivos nele.Ja no menu "Revisar", é possível ver as configurações feitas nos menus anteriores e confirmar a criação da regra. Essa é a página de confirmação de que a regra foi criada com sucessoApós a configuração da replicação, verifique se o bucket de destino foi criado.
- Vá ao bucket de origem e faça o upload de um arquivo testeFaça o upload ao bucket de origem e clique em "carregar", assim o upload é feito com as opções padrõesApós a confirmação do upload do arquivo no bucket de origem, va ao bucket de destino e verifique se o objeto foi copiado para o bucket de destino, conforme ilustrados nas imagens a seguirComo teste de segurança, volte ao bucket de origem e apague o arquivo
-Volte ao bucket de destino e verifique se o arquivo que foi replicado permanece salvo.
 
+1. Acesse o bucket que deseja fazer a configuração e clique na aba **Gerenciamento**. 
+
+2. Em seguida, clique em **Replicação** e em seguida clique em **Adicionar regra**. 
+
+3. Nessa tela, configura-se as regras de replicação, podendo selecionar todos os objetos, apenas objetos com um prefixo pré-determinado ou tag. Para este lab, vamos replicar todos os objetos.
+
+4. No menu "Definir destino", escolhemos um bucket ja existente para replicação, ou a criação de um novo. Neste lab, vamos optar por criar um novo.
+
+5. Também é possível definir qual a categoria de armazenamento do S3 que as réplicas serão salvas e se vamos alterar a propriedade do objeto para o proprietário do bucket de destino. Para esse lab, manteremos as opções padrão.
+
+6. Com a criação do novo bucket, é necessário colocar um novo nome único e definir a região onde o bucket de replicação vai ser criado.
+
+7. Após a definição do destino, precisamos dar permissão, através de IAM Role, para o bucket de origem criar um bucket de destino e fazer a cópia de arquivos nele.
+
+8. No menu **Revisar**, é possível ver as configurações feitas nos menus anteriores. Clique em **Confirmar**.
+
+9. Após a confirmação, verifique se o bucket de destino foi criado.
+
+10. Acesse o bucket de origem e faça o upload de um arquivo de teste
+
+11. Acesse o bucket de replicação  e verifique se o objeto foi replicado
+
+12. Acesso novamente o bucket de origem e exclua o arquivo
+
+13. Acesse novamente o bucket de replicação e verifique se o objeto replicado ainda permanece salvo
