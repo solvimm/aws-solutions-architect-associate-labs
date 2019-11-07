@@ -2,7 +2,11 @@
 
 1. Utilizando o bucket ja criado, vamos ativar o *versionamento*. Para isso, acesso o bucket e clique em **Permissions**.
 
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab04/lab-04-s3-01.png)
+
 2. Vão aparecer algumas opções. Clique em **Version Control** e habilite essa opção conforme imagens a seguir.
+
+![Image 02](https://d2yblsmsldwfto.cloudfront.net/lab04/lab-04-s3-02.png)
 
 3. Em seguida, volte na página inicial do bucket e faça o upload de um arquivo TXT com algum texto escrito. Siga o passo a passo para upload do arquivo, conforme feito no Lab 03.
 
@@ -11,6 +15,8 @@
 5. Em seguida, altere o conteúdo do arquivo TXT no seu computador e mantenha o mesmo nome. Faça o upload novamente, no mesmo bucket.
 
 6. Após novo upload, clique no objeto e, na janela seguinte, clique em **Versão mais recente** e confirme se as duas versões do objeto estão disponíveis.
+
+![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab04/lab-04-s3-03.png)
 
 7. Copie e cole novamente a URL do objeto, ou simplesmente atualize a página que acessou o objeto antes. Como resultado, o conteúdo do objeto deve ser atualizado.
 
