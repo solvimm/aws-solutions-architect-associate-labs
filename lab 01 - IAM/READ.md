@@ -10,9 +10,15 @@ Nesta parte, vamos criar um usuário com permissões de administrador pelo AWS C
 1.2. Clique em **Users**
 1.3. Clique em **Add User**
 
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-01.png)
+
+
 1.4. Defina o nome do usuário, escolhendo o tipo de acesso. *Programmatic Access*, para permitir utilização do CLI, ou *AWS Management Console Access*, para permitir login e acesso pelo console da AWS. Clique em **Next: Permissions**.
 
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-02.png)
+
 1.5. Na parte de grupos seria onde incluímos este usuário em algum grupo, mas vamos abordar a parte de grupos em outra parte deste tutorial.
+
 1.6. Selecione a aba "Attach existing policies directly" escolha a permissão que esse usuário precisa. Neste tutorial, vamos escolher **AdminstratorAccess** (na prática, tenha muita atenção ao utilizar esse tipo de permissão). Clique em **Next: Tags**.
 1.7. Nesta parte, podemos definir tags para facilitar o gerenciamento. Para este tutorial, não vamos usar tags. Clique em **Next: Review** e, por fim, em **Create User**.
 
@@ -21,7 +27,13 @@ Nesta parte, vamos criar um usuário com permissões de administrador pelo AWS C
 
 2.1. Para criar um grupo acesse o AWS dashboard do IAM, clique em **Groups** na parte esquerda da tela e, em seguida, clique em **Create New Group**
 2.2. Defina o nome do grupo e clique em **Next Step**.
+
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-03.png)
+
 2.3. Escolha a permissão que vai estar associada a este grupo. Isso significa que qualquer usuário que seja adicionado a este grupo vai possuir essas permissões. Para este tutorial vamos escolher permissão de **AdministratorAccess** e clicar em **Next Step**.
+
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-04.png)
+
 2.4. Para finalizar, clique em **Create Group**.
 
 ### 3. Adicionar Usuários no Grupo
@@ -33,8 +45,16 @@ Nesta parte, vamos criar um usuário com permissões de administrador pelo AWS C
 ### 4. Adicionar MFA à conta Root
 
 4.1. Acesse a tela principal do IAM Dashboard clique em **Activate MFA on your root account** e depois clique em **Manage MFA**
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-05.png)
+
 4.2. Clique em **Activate MFA**.
+
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-06.png)
+
 4.3. Escolha umas das três opções: a primeira é para adicionar o MFA Virtual, usando um aplicativo como Google Authenticator ou Authy, por exemplo, a segunda para MFA físico e a terceira para outro tipo de MFA. Para este tutorial, vamos utilizar **MFA Virtual**.
+
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-07.png)
+
 4.4. Utilize o Google Authenticator ou Authy para escanear o QR Code e obter o código para configurar.
 
 
