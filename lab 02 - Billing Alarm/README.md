@@ -11,10 +11,14 @@
 
 1.4. Clique em **Set up your budget**.
 
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab02/lab-02-billing-02.png)
+
 1.5. Em **Name**, defina um nome para o orçamento de forma que fique claro o que esse orçamento significa, como, por exemplo, Budget Mensal. O nome do orçamento deve ser exclusivo na sua conta e pode usar A-Z, a-z, espaços e os seguintes caracteres: _.:/=+-%@. Em **Period**, escolha a frequência com que você deseja que o orçamento redefina o gasto previsto e real. O período pode ser Monthly (Mensal), Quarterly (Trimestral) ou Annually (Anual). 
 
 
 1.6. Em **Budgeted Amount**, informe o valor total que você deseja gastar nesse período de orçamento. Em orçamentos de planejamento mensal e trimestral, insira o valor que você deseja gastar em cada período planejado.
+
+![Image 02](https://d2yblsmsldwfto.cloudfront.net/lab02/lab-02-billing-03.png)
 
 
 
@@ -29,6 +33,8 @@
 
 
 2.4 Em **Email Contacts**, digite os endereços de e-mail para os quais você deseja que as notificações sejam enviadas e clique em **Add email contact**. Separe vários endereços de e-mail com uma vírgula. Uma notificação pode ter até 10 endereços de e-mail.
+
+![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab02/lab-02-billing-04.png)
 
 
 2.5 Clique em **Confirm Budget**.
