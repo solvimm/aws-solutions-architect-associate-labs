@@ -1,13 +1,13 @@
 # Lab 16 - Load Balancer & Health Checks
 
 
-# 1. Criação de EC2
+## 1. Criação de EC2
 
 1.1.  Acesse o console de EC2 e crie 2 EC2 em zonas de disponibilidade distintas.
 
 
 
-# 2. Criação de Target Group
+## 2. Criação de Target Group
 
 2.1. Após a criação dos dois servidores, no painel da EC2, selecione **Target Groups** no menu da esquerda. Em seguida, clique em **Create Target Group**.
 
@@ -31,7 +31,7 @@
 2.6. Selecione as duas instâncias criadas anteriormente e clique em **Save**.
 
 
-# 3. Criação do Application Load Balancer
+## 3. Criação do Application Load Balancer
 
 
 3.1. No console da EC2, selecione **Load Balancer** no menu da esquerda e, em seguida, clique em **Create Load Balancer**.
