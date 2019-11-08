@@ -1,7 +1,7 @@
 # Lab 22 - VPC Endpoints
 
 
-# 1. Criação de VPC Endpoint
+## 1. Criação de VPC Endpoint
 
 1.1. Para criar um VPC Endpoint para o S3, abra o console de Amazon VPC em https://console.aws.amazon.com/vpc/.
 
@@ -29,7 +29,7 @@
 1.9. Após este passo, você receberá um aviso confirmando a criação do endpoint. Clique em **Close**.
 ![Image 07](https://d2yblsmsldwfto.cloudfront.net/lab22/Lab-07-endpoints.png)
 
-# 2. Validação
+## 2. Validação
 
 
 2.1. Verifique se o endpoint é exibido no painel.
