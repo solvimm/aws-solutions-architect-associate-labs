@@ -30,7 +30,7 @@ Abra o console de Amazon Route 53 em https://console.aws.amazon.com/route53/home
 
 2.6. Para **Routing Policy**, deixe em ```Simple```.
 
-![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab14/lab-14-route53-02.png)
+![Image 02](https://d2yblsmsldwfto.cloudfront.net/lab14/lab-14-route53-02.png)
 
 
 2.7. Por fim, clique em **Create**. Para isso funcionar, seria necessário ter um domínio válido adquirido.
