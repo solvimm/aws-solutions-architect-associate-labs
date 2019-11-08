@@ -2,7 +2,7 @@
 
 Abra o console de Amazon Route 53 em https://console.aws.amazon.com/route53/home
 
-# 1. Compra de domínio
+## 1. Compra de domínio
 
 1.1. **IMPORTANTE: Não iremos concluir a compra do domínio para não gerar custos nesse lab. Iremos só realizar os passos para mostrar como seria, e cancelar no final.**
 
@@ -16,7 +16,7 @@ Abra o console de Amazon Route 53 em https://console.aws.amazon.com/route53/home
 
 
 
-# 2. Configuração de domínio em EC2
+## 2. Configuração de domínio em EC2
 
 2.1. No painel do Route 53, selecione **Hosted zones** no menu da esquerda e, em seguida, clique em **Create Hosted Zone**.
 
