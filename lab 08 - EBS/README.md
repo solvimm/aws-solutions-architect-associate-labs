@@ -1,7 +1,7 @@
 # Lab 08 - EBS
 
 
-# 1. Criação de EC2
+## 1. Criação de EC2
 
 1.1. Como primeiro passo, crie uma instância EC2 como no Lab 07, exceto na parte de configuração de storage
 
@@ -12,11 +12,9 @@
 1.3. Conclua a criação da EC2 como no Lab 07.
 
 
+# EBS Lab
 
-
-EBS Lab
-
-# 2. Modificação de EBS
+## 2. Modificação de EBS
 
 2.1. Após a criação do servidor, de volta na tela inicial de EC2, na aba esquerda, clique em **Volumes** para ver os discos EBS.
 
@@ -33,7 +31,7 @@ EBS Lab
 ![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab08/lab-08-ebs-03.png)
 
 
-# 3. Criação de Snapshot
+## 3. Criação de Snapshot
 
 3.1. Selecione o volume que deseja criar o snapshot, clique em "Actions" e, em seguida, clique em **Create a Snapshot**.
 
@@ -46,7 +44,7 @@ EBS Lab
 3.3. Por fim, clique em **Create Snapshot**.
 
 
-# 4. Criação de instância a partir de snapshot
+## 4. Criação de instância a partir de snapshot
 
 4.1. Para criar uma instância EC2 a partir de um snapshot gerado, selecione o snapshot, clique em **Actions** e clique e **Create AMI**.
 
