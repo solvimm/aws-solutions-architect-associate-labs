@@ -5,7 +5,7 @@ Laboratórios práticos para preparação para a prova de certificação para AW
 
 ## Index
 
-- [Lab 01 - IAM](lab 01 - IAM)
+- [Lab 01 - IAM](lab\ 01\ -\ IAM/README.md)
 - Lab 02 - Billing Alarm
 - Lab 03 - S3
 - Lab 04 - S3 Versioning
