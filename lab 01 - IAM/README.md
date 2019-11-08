@@ -20,12 +20,14 @@ Nesta parte, vamos criar um usuário com permissões de administrador pelo AWS C
   1.5. Na parte de grupos seria onde incluímos este usuário em algum grupo, mas vamos abordar a parte de grupos em outra parte deste tutorial.
 
   1.6. Selecione a aba "Attach existing policies directly" escolha a permissão que esse usuário precisa. Neste tutorial, vamos escolher **AdminstratorAccess** (na prática, tenha muita atenção ao utilizar esse tipo de permissão). Clique em **Next: Tags**.
+  
   1.7. Nesta parte, podemos definir tags para facilitar o gerenciamento. Para este tutorial, não vamos usar tags. Clique em **Next: Review** e, por fim, em **Create User**.
 
 
 ### 2. Criação de Grupo
 
 2.1. Para criar um grupo acesse o AWS dashboard do IAM, clique em **Groups** na parte esquerda da tela e, em seguida, clique em **Create New Group**
+
 2.2. Defina o nome do grupo e clique em **Next Step**.
 
 ![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab01/lab-01-iam-03.png)
