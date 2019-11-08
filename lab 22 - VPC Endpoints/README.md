@@ -1,4 +1,4 @@
-# Lab 20 - VPC Endpoints
+# Lab 22 - VPC Endpoints
 
 
 # 1. Criação de VPC Endpoint
