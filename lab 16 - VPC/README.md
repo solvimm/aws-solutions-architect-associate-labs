@@ -1,6 +1,6 @@
 # Lab 16 - VPC (Virtual Private Cloud)
 
-##### 1. Criação de VPC
+## 1. Criação de VPC
 
   1.1. Faça login no console da AWS e acesso o serviço Amazon VPC em: https://console.aws.amazon.com/vpc/.
 
@@ -32,7 +32,7 @@
   1.6. Ao terminar as configurações, clique em **Create VPC**.
 
 
-##### 2. Criação de Subnet
+## 2. Criação de Subnet
 
   2.1. Para criar uma subnet adicional, acesso novamente pelo console a página da Amazon VPC.
 
@@ -65,7 +65,7 @@
   2.8. Se a tabela de rotas atual não for a mesma que a tabela de rotas da primeira subnet privada, escolha **Edit route table association**. Em **Route Table ID**, escolha a tabela de rotas que você anotou antes, por exemplo: rtb-98b613fd. Em seguida, para salvar a seleção, clique em **Save**.
 
 
-# 3. Criação de Security Group
+## 3. Criação de Security Group
 
   3.1. Para criar um security group de VPC, acesse o dashboard inicial de VPC, selecione no menu da esquerda **Security Groups** e clique em **Create security group**.
 
