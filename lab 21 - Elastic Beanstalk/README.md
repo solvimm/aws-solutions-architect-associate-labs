@@ -1,7 +1,7 @@
 # Lab 21 - Elastic Beanstalk
 
 
-# 1. Criação de Aplicação no Beanstalk
+## 1. Criação de Aplicação no Beanstalk
 
 1.1. No painel inicial de serviços, selecione em **Elastic Beanstalk** e clique em **Create new Application**.
 
@@ -15,7 +15,7 @@
 ![Image 02](https://d2yblsmsldwfto.cloudfront.net/lab21/lab-21-beanstalk-02.png)
 
 
-# 1. Acesso a Aplicação Criada
+## 2. Acesso a Aplicação Criada
 
 2.1. Após a finalização das configurações, atualize a página. Em seguida, copie a URL de acesso do Beanstalk e cole no navegador.
 
