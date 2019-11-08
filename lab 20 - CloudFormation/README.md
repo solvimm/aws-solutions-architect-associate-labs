@@ -1,7 +1,7 @@
 # Lab 20 - CloudFormation
 
 
-# 1. Criação de Aplicação no Beanstalk
+## 1. Criação de Aplicação no Beanstalk
 
 1.1. Acesse o menu principal de serviços e encontre o **CloudFormation**.
 
@@ -27,7 +27,7 @@
 
 1.8. No menu "Review" você pode revisar todas as configurações feitas nos passos anteriores de criação do CloudFormation. Clique em **Create stack** para iniciar a criação.
 
-# 2. Acesso ao Ambiente Criado
+## 2. Acesso ao Ambiente Criado
 
 2.1. Nesse painel é possível acompanhar os passos para a criação do ambiente.
 
