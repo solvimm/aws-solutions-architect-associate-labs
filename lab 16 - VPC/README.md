@@ -10,7 +10,7 @@
 
   1.4. Na página **Step 1: Select a VPC Configuration**, escolha **VPC with Public and Private Subnets (VPC com sub-redes públicas e privadas)** e depois clique em **Select** (Selecionar).
 
-![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab15/lab-15-vpc-01.png)
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab16/lab-16-vpc-01.png)
 
   1.5 Na página **Step 2: VPC with Public and Private Subnets** (Etapa 2: VPC com sub-redes públicas e privadas), defina estes valores:
 
@@ -27,7 +27,7 @@
 - Enable DNS hostnames (Habilitar nomes de host DNS): Yes
 - Hardware tenancy (Locação de hardware): Default
 
-![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab15/lab-15-vpc-02.png)
+![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab16/lab-16-vpc-02.png)
 
   1.6. Ao terminar as configurações, clique em **Create VPC**.
 
@@ -38,7 +38,7 @@
 
   2.2. Para adicionar a segunda subnet privada à VPC, selecione **VPC Dashboard**, escolha **Subnets** e **Create subnet**.
 
-![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab15/lab-15-vpc-03.png)
+![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab16/lab-16-vpc-03.png)
 
   2.3. Na página **Create Subnet**, defina esses valores:
 
@@ -48,7 +48,7 @@
 - Escolha uma Zona de disponibilidade que é diferente da que você escolheu para a primeira sub-rede privada.
 - IPv4 CIDR block (Bloco CIDR IPv4): 10.0.2.0/24
 
-![Image 04](https://d2yblsmsldwfto.cloudfront.net/lab15/lab-15-vpc-04.png)
+![Image 04](https://d2yblsmsldwfto.cloudfront.net/lab16/lab-16-vpc-04.png)
 
   2.4. Quando terminar, clique em **Create**. Em seguida, clique em **Close** na página de confirmação.
 
@@ -56,7 +56,7 @@
 
   2.5. Abaixo da lista de subnets, selecione a guia **Route Table**, e observe o valor de Route Table, por exemplo, rtb-98b613fd.
 
-![Image 05](https://d2yblsmsldwfto.cloudfront.net/lab15/lab-15-vpc-05.png)
+![Image 05](https://d2yblsmsldwfto.cloudfront.net/lab16/lab-16-vpc-05.png)
 
   2.6. Na lista de subnets, desmarque a primeira sub-rede privada.
 
@@ -76,13 +76,13 @@
 - Description (Descrição): Tutorial Security Group
 - VPC: escolha a VPC criada anteriormente, por exemplo: vpc-identifier (10.0.0.0/16) | tutorial-vpc
 
-![Image 06](https://d2yblsmsldwfto.cloudfront.net/lab15/lab-15-vpc-06.png)
+![Image 06](https://d2yblsmsldwfto.cloudfront.net/lab16/lab-16-vpc-06.png)
 
 3.3. Clique em **Create**.
 
 3.4. Vá até o SG criado e clique na guia **Inbound Rules** e clique em **Edit rules**.
 
-![Image 07](https://d2yblsmsldwfto.cloudfront.net/lab15/lab-15-vpc-07.png)
+![Image 07](https://d2yblsmsldwfto.cloudfront.net/lab16/lab-16-vpc-07.png)
 
 3.5. Adicione uma regra de acesso SSH para o seu IP e clique em **Save**
 
