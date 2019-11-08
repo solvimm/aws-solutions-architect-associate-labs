@@ -1,7 +1,7 @@
 # Lab 19 - VPC Flow Logs
 
 
-# 1. Criação de Grupo de Logs
+## 1. Criação de Grupo de Logs
 
 1.1. Para iniciar o lab do VPC Flow Logs, é necessário fazer a criação de um grupo de FlowLogs no Amazon CloudWatch. Vá no menu de serviços e acesse o **CloudWatch**.
 
@@ -16,7 +16,7 @@
 1.4. Defina um nome para o grupo e finalize a criação.
 
 
-# 2. Configuração de VPC Flow Logs
+## 2. Configuração de VPC Flow Logs
 
 2.1. Após ter o grupo de logs criado, acesse o menu de serviços e clique em **VPC**.
 
@@ -43,7 +43,7 @@
 ![Image 05](https://d2yblsmsldwfto.cloudfront.net/lab19/lab-19-vpc-flowlogs-05.png)
 
 
-# 3. Visualização de Logs
+## 3. Visualização de Logs
 
 3.1. Para visualizar os logs, selecione a VPC onde o Flow Log foi criado e vá no menu **Flow logs**.
 
