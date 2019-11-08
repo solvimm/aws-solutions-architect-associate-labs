@@ -5,7 +5,7 @@ Laboratórios práticos para preparação para a prova de certificação para AW
 
 ## Index
 
-- [Lab 01 - IAM](lab\ 01\ -\ IAM/README.md)
+- [Lab 01 - IAM](https://github.com/solvimm/aws-solutions-architect-associate-labs/tree/master/lab%2001%20-%20IAM)
 - Lab 02 - Billing Alarm
 - Lab 03 - S3
 - Lab 04 - S3 Versioning
