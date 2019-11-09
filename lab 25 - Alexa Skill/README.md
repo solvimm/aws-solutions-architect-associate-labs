@@ -1,4 +1,4 @@
-# Lab 24 - Alexa Skill
+# Lab 25 - Alexa Skill
 
 ## 1. Criado o Lambda de execução
 
@@ -6,7 +6,7 @@
 
 1.2. Selecione **Browse serverless app repository**, filtre por **alexa-skills-kit-nodejs-factskill** e selecione esse repositório, depois clique em **Deploy** e aguarde aproximadamente 2 minutos para o final do deploy.
 
-![Image 04](https://d2yblsmsldwfto.cloudfront.net/lab25/lab-25-alexa-skill-01.png)
+![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab25/lab25-alexa-skill-01.png)
 
 1.3. Depois disso, selecione o lambda criado no console e copie seu ARN.
 
@@ -14,7 +14,11 @@
 
 2.1. Entre no painel de desenvolvedor da alexa [https://developer.amazon.com/alexa/console/ask](https://developer.amazon.com/alexa/console/ask)
 
+
+
 2.2. Entre com seu e-mail pessoal e clique em **Create Skill**
+
+
 
 2.3. Crie um nome para skill e selecione **Portuguese (BR)** em Default language e clique em **Create skill**.
 
@@ -27,6 +31,8 @@
 2.9. Ainda no lambda, clique no para adicionar um novo trigger, escolha o tipo **Alexa Skill Kit** e add o valor do campo ***Your Skill ID** copiado anteriormente e clique em **Add** e depois **Save** no Lambda
 
 2.10. Volte no console de desenvolvimento da Alexa e Clique em **Salve Model**, depois em **Build Model** e espera alguns minutos para o termino.
+
+![Image 02](https://d2yblsmsldwfto.cloudfront.net/lab25/lab25-alexa-skill-05.png)
 
 2.11. Clique Test para entrar na parte de teste das skills. Depois digite ou fale **solvimm treinamentos**
 que a Alexa irá chamar o lambda criado anteriormente e depois retornar uma **fan fact em inglês**
@@ -44,4 +50,4 @@ const data = [
 
 2.14. Salve o lambda e teste novamente no console da Alexa.
 
-![Image 05](https://d2yblsmsldwfto.cloudfront.net/lab24/lab-24-serverless-04.png)
+![Image 03](https://d2yblsmsldwfto.cloudfront.net/lab25/lab25-alexa-skill-06.png)
