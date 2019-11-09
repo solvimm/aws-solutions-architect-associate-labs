@@ -1,7 +1,6 @@
 # Lab 24 - Serverless Website
 
-
-### 1. Criação de Função Lambda
+## 1. Criação de Função Lambda
 
 1.1. Entre no console da AWS e na aba de Serviços escolha o serviço Lambda. Clique em **Create a function**.
 
@@ -25,7 +24,7 @@
 ```
 def lambda_handler(event, context):
     print("In lambda handler")
-    
+
     response = {
         'statusCode': 200,
         'headers': {
@@ -42,7 +41,7 @@ def lambda_handler(event, context):
 ![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab24/lab-24-serverless-04.png)
 
 
-### 2. Configuração de API Gateway
+## 2. Configuração de API Gateway
 
 2.1. Clique no botão **Add Trigger** e em **Trigger configuration** escolha a opção **API Gateway**.
 
@@ -73,7 +72,7 @@ def lambda_handler(event, context):
 2.8. Em **Resources** no botão **Actions** escolha a opção **Deploy API**.
 
 
-### 3. Validação de Integração Lambda e API Gateway
+## 3. Validação de Integração Lambda e API Gateway
 
 3.1. Em **Stages**, clique na seta ao lado do criado anteriormente (default) e selecione **GET**. Em **Invoke URL**, clique na url.
 
@@ -84,7 +83,7 @@ def lambda_handler(event, context):
 ![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab24/lab-24-serverless-12.png)
 
 
-### 4. Configuração de S3 para hospedar site estático
+## 4. Configuração de S3 para hospedar site estático
 
 4.1. Crie um arquivo com o nome **index.html** e copie e cole o código abaixo:
 
@@ -134,15 +133,3 @@ function myFunction() {
 4.9. Confirme o aparecimento do site e se o botão está funcionando corretamente.
 
 ![Image 01](https://d2yblsmsldwfto.cloudfront.net/lab24/lab-24-serverless-14.png)
-
-
-
-
-
-
-
-
-
-
-
-
